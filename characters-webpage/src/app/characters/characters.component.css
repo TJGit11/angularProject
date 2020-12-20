@@ -1,0 +1,44 @@
+.characters {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 20em;
+}
+.characters li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: rgb(76, 199, 207);
+  margin: 0.5em;
+  padding: 0.3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+  align-content: center;
+}
+.characters li:hover {
+  color: #607d8b;
+  background-color: rgb(130, 207, 238);
+  left: 0.1em;
+}
+.characters li.selected {
+  background-color: #cfd3dc;
+  color: white;
+}
+.characters li.selected:hover {
+  background-color: #bbd8dc;
+  color: white;
+}
+.characters .badge {
+  display: inline-block;
+  font-size: small;
+  color: rgb(255, 255, 255);
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #02aa56;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  margin-right: 0.8em;
+  border-radius: 4px 0 0 4px;
+}

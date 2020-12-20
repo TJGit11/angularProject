@@ -1,6 +1,6 @@
-import { Student } from './student';
+import { character } from './character';
 
-export const STUDENTS: Student[] = [
+export const characters: character[] = [
   { id: 1, name: 'Cloud', major: 'Warrior'},
   { id: 2, name: 'Aerith', major: 'Healer'},
   { id: 3, name: 'Killua', major: 'Assassin'},
